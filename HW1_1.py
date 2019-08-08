@@ -17,7 +17,7 @@ while (var_b.isdigit() == False):
     continue
 var_a_f = float(var_a)
 var_b_f = float(var_b)
-print(
+print("",
     "A = " + str(var_a_f),
     "B = " + str(var_b_f),
     "A + B = " + str(var_a_f + var_b_f),
