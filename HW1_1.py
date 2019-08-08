@@ -24,5 +24,5 @@ print(
     "A - B = " + str(var_a_f - var_b_f),
     "A * B = " + str(var_a_f * var_b_f),
     "A / B = " + str(var_a_f / var_b_f),
-    sep="\n"
+    sep="\n",
 )
