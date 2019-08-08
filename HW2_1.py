@@ -21,9 +21,9 @@ If the implementation is easy to explain, it may be a good idea.
 Namespaces are one honking great idea -- let's do more of those!"""
 
 search = {
-    "better": (python_zen.split()).count("better"),
-    "never": (python_zen.split()).count("never"),
-    "is": (python_zen.split()).count("is"),
+    "better": python_zen.count("better"),
+    "never": python_zen.count("never"),
+    "is": python_zen.count("is"),
 }
 
 #print(

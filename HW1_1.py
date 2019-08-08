@@ -1,19 +1,19 @@
-var_dict = {
-    "Q" : "Please enter variable ",
-    "A" : "A... ",
-    "B" : "B... ",
-    "E" : "Please enter a number, not a word or symbol" 
-}
+var_list = [
+    "Please enter variable ",
+    "A... ",
+    "B... ",
+    "Please enter a number, not a word or symbol" 
+]
 
-var_a = input(var_dict["Q"] + var_dict["A"])
-while (var_a.isdigit() == False):
-    print(var_dict["E"])
-    var_a = input(var_dict["Q"] + var_dict["A"])
+var_a = input(var_list[0] + var_list[1])
+while var_a.isdigit() == False:
+    print(var_list[3])
+    var_a = input(var_list[0] + var_list[1])
     continue
-var_b = input(var_dict["Q"] + var_dict["B"])
-while (var_b.isdigit() == False):
-    print(var_dict["E"])
-    var_b = input(var_dict["Q"] + var_dict["B"])
+var_b = input(var_list[0] + var_list[2])
+while var_b.isdigit() == False:
+    print(var_list[3])
+    var_b = input(var_list[0] + var_list[2])
     continue
 var_a_f = float(var_a)
 var_b_f = float(var_b)
