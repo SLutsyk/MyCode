@@ -8,4 +8,4 @@ def count_positives_sum_negatives(arr):
             z += x
         else:
             y += 1
-    return [y, z] 
+    return [y, z]
